@@ -110,3 +110,5 @@ group :test do
   gem "rspec-html-matchers"
   gem "webmock"
 end
+
+gem 'dotenv-rails', groups: [:development, :test]
